@@ -1,1 +1,249 @@
-<h1> Hi </h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!--HEADER START-->
+  <header class="header">
+    <div class="wrapper">
+      <div class="header__left" style="display:flex;
+  align-items: center;">
+        <div class="logo">
+          QPICK
+        </div>
+        <div class="header__burger">
+          <a style="display:flex; align-items:center">
+            <img src="./img/phone_header.png" alt="None" class="header__burger__phone">
+            <p>Выбрать наушники</p>
+            <img src="./img/arrow_burger.png" alt="" style="width:5px; height: 3px; margin-left:4px">
+          </a>
+        </div>
+      </div>
+      <div class="header__icons">
+        <a href="#" onClick="theme()"><img src="./img/likes.png" alt=""></a>
+        <a href="#"><img src="./img/shopping_cart.png" alt=""></a>
+      </div>
+    </div>
+  </header>
+  <!--header end-->
+
+  <!--main-->
+  <main>
+    <div class="all_content">
+      <div class="wrapper">
+        <div class="title_block">
+          <h1 class="title">
+            Наушники
+          </h1>
+        </div>
+
+
+        <!---products wired start-->
+        <h2 class="title _wires">
+          Проводные
+        </h2>
+        <div class="products_list">
+          <a href="#">
+            <div class="product">
+
+              <div class="product__image">
+                <img src="./img/products/AppleBYZS852I.png" alt="">
+              </div>
+              <div class="product__textinfo">
+                <p class="product__title">
+                  Apple BYZ S852I
+                </p>
+              </div>
+              <div class="product__rate">
+                <img src="./img/rate__image.png" alt="" class="rate__image">
+                <p class="product__rate__number">4.6</p>
+              </div>
+              <a class="button" onClick="clik()" href="#" id="button">
+                <div class="text" id="text">
+                  Купить
+                </div>
+                <div class="line" id="line">
+
+                </div>
+                <div class="persent" id="count">
+                  <span id="persent">2927</span><span>₸</span>
+                </div>
+              </a>
+            </div>
+          </a>
+          <a href="#">
+            <div class="product">
+              <div class="product__image">
+                <img src="./img/products/AppleEarPods_2.png" alt="">
+              </div>
+              <div class="product__textinfo">
+                <p class="product__title">
+                  Apple EarPods
+                </p>
+              </div>
+              <div class="product__rate">
+                <img src="./img/rate__image.png" alt="" class="rate__image">
+                <p class="product__rate__number">4.5</p>
+              </div>
+              <a class="button" onClick="clik()" href="#" id="button">
+                <div class="text" id="text">
+                  Купить
+                </div>
+                <div class="line" id="line">
+
+                </div>
+                <div class="persent" id="count">
+                  <span id="persent">2327</span><span>₸</span>
+                </div>
+              </a>
+            </div>
+          </a>
+          <a href="#">
+            <div class="product">
+              <div class="product__image">
+                <img src="./img/products/AppleEarPods.png" alt="">
+              </div>
+              <div class="product__textinfo">
+                <p class="product__title">
+                  Apple EarPods
+                </p>
+              </div>
+              <div class="product__rate">
+                <img src="./img/rate__image.png" alt="" class="rate__image">
+                <p class="product__rate__number">4.6</p>
+              </div>
+              <a class="button" onClick="clik()" href="#" id="button">
+                <div class="text" id="text">
+                  Купить
+                </div>
+                <div class="line" id="line">
+
+                </div>
+                <div class="persent" id="count">
+                  <span id="persent">2327</span><span>₸</span>
+                </div>
+              </a>
+            </div>
+          </a>
+
+        </div>
+        <!--products-wired emd-->
+
+        <!--product wireless start-->
+        <h2 class="title _wireless">
+          Беспроводные наушники
+        </h2>
+        <div class="products_list">
+          <a href="#">
+            <div class="product">
+              <div class="product__image">
+                <img src="./img/products/Apple_airpods.png" alt="">
+              </div>
+              <div class="product__textinfo">
+                <p class="product__title">
+                  Apple AirPods
+                </p>
+              </div>
+              <div class="product__rate">
+                <img src="./img/rate__image.png" alt="" class="rate__image">
+                <p class="product__rate__number">4.7</p>
+              </div>
+              <a class="button" onClick="clik()" href="#" id="button">
+                <div class="text" id="text">
+                  Купить
+                </div>
+                <div class="line" id="line">
+
+                </div>
+                <div class="persent" id="count">
+                  <span id="persent">9527</span><span>₸</span>
+                </div>
+              </a>
+            </div>
+          </a>
+          <a href="#">
+            <div class="product">
+              <div class="product__image">
+                <img src="./img/products/Gerlax_gh04.png" alt="">
+              </div>
+              <div class="product__textinfo">
+                <p class="product__title">
+                  GERLAX GH-04
+                </p>
+              </div>
+              <div class="product__rate">
+                <img src="./img/rate__image.png" alt="" class="rate__image">
+                <p class="product__rate__number">4.5</p>
+              </div>
+              <a class="button" onClick="clik()" href="#" id="button">
+                <div class="text" id="text">
+                  Купить
+                </div>
+                <div class="line" id="line">
+
+                </div>
+                <div class="persent" id="count">
+                  <span id="persent">6527</span><span>₸</span>
+                </div>
+              </a>
+            </div>
+          </a>
+        </div>
+        <!--product wireless end-->
+
+        <footer>
+          <div class="footer__content">
+            <div class="logo">
+              QPICK
+            </div>
+            <nav class="footer__contacts">
+              <ul class="contacts__list">
+                <li class="contacts__item">Избранное</li>
+                <li class="contacts__item">Корзина</li>
+                <li class="contacts__item">Контакты</li>
+              </ul>
+            </nav>
+            <div class="service">
+              <a href="#" class="service_terms">Условия сервиса</a>
+              <div class="lang">
+                <img src="./img/earth.png" alt="" class="earth" style="margin-right: 15px">
+                <ul class="lang__list">
+                  <li class="lang__item">Каз</li>
+                  <li class="lang__item">Рус</li>
+                  <li class="lang__item">Eng</li>
+                </ul>
+              </div>
+            </div>
+            <div class="links_ic">
+              <ul class="links_ic__list">
+                <li class="links_ic__item">
+                  <img src="./img/Instagram.png" alt="">
+                </li>
+                <li class="links_ic__item">
+                  <img src="./img/Telegram.png" alt="">
+                </li>
+                <li class="links_ic__item">
+                  <img src="./img/Whatsapp.png" alt="">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>-
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js">
+    script.js
+  </script>
+</body>
+
+</html>
+
